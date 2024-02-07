@@ -1,0 +1,41 @@
+{
+    "name": "RSM",
+    "description": "ROSSMANN Default AL Rule Set",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "Invalid warnings about wrongly named variables."
+        },
+        {
+            "id": "AS0084",
+            "action": "Hidden",
+            "justification": "Invalid error about wrong id range."
+        },
+        {
+            "id": "AS0053",
+            "action": "Hidden",
+            "justification": "Invalid error about using the target OnPrem."
+        },
+        {
+            "id": "AS0092",
+            "action": "Info",
+            "justification": "Azure Application Insights is not available."
+        },
+        {
+            "id": "AA0210",
+            "action": "Warning",
+            "justification": "Performance issues should not be ignored. This should become an error when updating to Business Central 18/Runtime 7.0 or higher."
+        },
+        {
+            "id": "AA0217",
+            "action": "Hidden",
+            "justification": "Using text constants in StrSubstNo can be used as a replacement for multiple string replacement operations."
+        },
+        {
+            "id": "AL0702",
+            "action": "Hidden",
+            "justification": "Appending a suffix is against our internal guidelines (https://wiki.rossmann.de/display/KTAL/AL+Code+Guidelines)."
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "supportedCountries": ["DE"],
+    "mandatoryAffixes": ["RSM", "rsm", "ROSSMANN", "Rossmann"]
+}

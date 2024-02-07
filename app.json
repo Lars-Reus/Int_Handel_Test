@@ -1,0 +1,47 @@
+{
+  "id": "ce0d3aab-93e7-4dbb-a442-99801b6318dd",
+  "name": "rsm-prod-to-test",
+  "publisher": "Dirk Rossmann GmbH",
+  "version": "1.0.0.0",
+  "brief": "ROSSMANN Prod to Test umstellung",
+  "description": "ROSSMANN Prod to Test umstellung",
+  "privacyStatement": "https://www.rossmann.de/de/datenschutzerklaerung",
+  "contextSensitiveHelpUrl": "https://www.rossmann.de/de",
+  "EULA": "https://www.rossmann.de/",
+  "help": "https://www.rossmann.de/",
+  "url": "https://www.rossmann.de/",
+  "logo": "Logo.png",
+  "dependencies": [
+    {
+      "name": "RossmannCore",
+      "version": "23.1.0.24",
+      "publisher": "VISIONDATA business consult AG",
+      "id": "3e7cf5ad-b016-410c-bacb-90181f2a8048"
+    },
+    {
+      "name": "app-rossmann-standard",
+      "version": "1.0.0.1",
+      "publisher": "Dirk Rossmann GmbH",
+      "id": "dab6684e-569f-409a-b724-84d4f1a2582e"
+    }
+  ],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50050,
+      "to": 51100
+    },
+    {
+      "from": 52000,
+      "to": 52020
+    }
+  ],
+  "runtime": "6.1",
+  "target": "OnPrem",
+  "features": [
+    "TranslationFile",
+    "GenerateCaptions"
+  ]
+}

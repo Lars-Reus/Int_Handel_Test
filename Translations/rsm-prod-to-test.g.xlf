@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="rsm-prod-to-test">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3543485804 - NamedType 1970375470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RSM Prod to Test - NamedType DisableJobQueEntriesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3543485804 - NamedType 2070118391" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AEB Customs Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RSM Prod to Test - NamedType ModifyVDRSMAEBCustomsSetupURLsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3543485804 - NamedType 3349100301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rest Interface Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RSM Prod to Test - NamedType ModifyVDRSMRestSetupURLsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3543485804 - NamedType 2211284246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing Prod to Test:\Modifies #1########</source>
+          <note from="Developer" annotates="general" priority="2">%1="Which table will be modified"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit RSM Prod to Test - NamedType OpenWindowLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

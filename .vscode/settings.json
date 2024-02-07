@@ -1,0 +1,10 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.ruleSetPath": "./.vscode/default.ruleset.json",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "al.codeAnalyzers": [
+        "${UICop}", "${CodeCop}", "${AppSourceCop}"
+    ]
+}
